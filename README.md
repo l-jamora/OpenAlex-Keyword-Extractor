@@ -1,18 +1,16 @@
 # OpenAlex DOI to Keywords (RIS Exporter)
 This Python script takes a list of DOIs (in any format), queries the [OpenAlex API](https://openalex.org/), and exports an `.ris` file containing titles and concept keywords for use in **bibliometric tools** like [VOSviewer](https://www.vosviewer.com/).
 
-For the sake of transpara
-
 ---
 
-## Features
+## ✨ Features
 
-- Accepts DOIs in **raw or URL** format (e.g. `10.1016/...`, `https://doi.org/...`)
-- Automatically extracts **keywords** (concepts) from OpenAlex
-- Outputs a **valid RIS** file ready for import into **VOSviewer**
-- Skips invalid or non-DOI URLs (e.g. `itcon.org/2016/24`)
-- Progress bar for large datasets
-- Gracefully handles errors
+- ✅ Accepts DOIs in **raw or URL** format (e.g. `10.1016/...`, `https://doi.org/...`)
+- ✅ Automatically extracts **keywords** (concepts) from OpenAlex
+- ✅ Outputs a **valid RIS** file ready for import into **VOSviewer**
+- ✅ Skips invalid or non-DOI URLs (e.g. `itcon.org/2016/24`)
+- ✅ Progress bar for large datasets
+- 🔒 Gracefully handles errors
 
 ---
 
@@ -131,5 +129,3 @@ Just open an issue or PR.
 ## 🤖 Transparency Notice
 
 This code and documentation were originally generated using [OpenAI’s ChatGPT API](https://platform.openai.com/). Final structure, testing, and integration were done manually by the project author.
-
-```
